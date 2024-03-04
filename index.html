@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    <title>Column</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lexend Deca', sans-serif; /* Agregando la fuente Lexend Deca */
+
+    }
+
+  
+    .specimen {
+            font-family: 'Big Shoulders Display', sans-serif; 
+            font-weight: 400;
+        }
+    @media screen and (max-width: 767px)
+    {
+    .last-flow {padding-top: 50px;
+        padding-left:50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+    
+    }
+    .pbsm {
+        padding-bottom: 35px;
+    }
+
+    }
+
+    @media screen and (max-width: 767px)
+    { .radious {
+        border-bottom-left-radius: 8px;
+    }
+
+    .radious2 {
+        border-top-right-radius: 8px;
+    }
+
+    }
+    
+    </style>
+</head>
+<body>
+
+    <div class="grid grid-cols-1 px-6 py-20 md:grid-cols-3">
+ <!--SEDAN  -->
+
+<div class="  bg-[#e38826] md:pt-12 md:px-9 md:pb-10 rounded-tl-lg md:rounded-bl-lg last-flow radious2">
+
+    <img class=" pbsm md:pb-8" src="./images/icon-sedans.svg" alt="">
+
+   <h1 class="pb-5 text-4xl text-white uppercase specimen">Sedans</h1> 
+
+    <p class="pb-16 text-white/75">
+        Choose a sedan for its <br>affordability and excellent <br>
+         fuel economy. Ideal for <br>
+         cruising in the city 
+        or on <br> your next road trip.
+    </p>
+    <button class="py-3 text-sm text-yellow-700 bg-white rounded-2xl px-7 ring-1 hover:ring-white hover:bg-transparent">Learn more</button>
+</div> 
+  
+
+<!-- SUV -->
+<div class="  bg-[#006970] md:pt-12 md:pl-6 md:pb-8 last-flow ">
+
+    <img class="pbsm md:pb-8" src="./images/icon-suvs.svg" alt="">
+
+   <h1 class="pb-5 text-4xl text-white uppercase specimen">SUVs</h1> 
+
+  <p class="pb-16 text-white/75"> Take an SUV for its spacious <br>
+    interior, power, and <br>
+    versatility. Perfect for your <br>
+    next family vacation 
+    and <br>
+    off-road adventures.
+</p> 
+
+<button 
+class="py-3 text-sm text-yellow-700 bg-white rounded-2xl px-7 ring-1 hover:ring-white hover:bg-transparent">
+Learn more</button>
+
+</div> 
+
+<!-- LUXURY -->
+<div class=" bg-[#004241] radious last-flow  md:pt-12 md:pl-6 md:pb-8 rounded-br-lg md:rounded-tr-lg">
+
+    <img class="pbsm md:pb-8" src="./images/icon-luxury.svg" alt="">
+
+   <h1 class="pb-5 text-4xl text-white uppercase specimen">Luxury</h1> 
+
+   <p class="pb-16 text-white/75"> Cruise in the best car brands <br> without the bloated prices. <br> Enjoy the enhanced comfort <br> of a luxury 
+    rental and arrive <br> in style.</p>
+    <button class="py-3 text-sm text-yellow-700 bg-white rounded-2xl px-7 ring-1 hover:ring-white hover:bg-transparent">Learn more</button>
+    
+</div>
+</div>
+
+</body>
+</html>
